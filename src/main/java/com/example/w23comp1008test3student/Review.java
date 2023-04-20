@@ -5,7 +5,11 @@ public class Review {
     private String description;
     private int starRating;
 
+
     public Review(String reviewerName, String description, int starRating) {
+        setReviewerName(reviewerName);
+        setDescription(description);
+        setStarRating(starRating);
     }
 
     public String getReviewerName() {
