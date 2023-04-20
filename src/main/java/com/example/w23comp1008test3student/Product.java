@@ -78,3 +78,4 @@ public class Product {
         return String.format("%s (%s) - $%.2f, rating: %s", name, category, price, getRating());
     }
 }
+

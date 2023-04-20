@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a960b076-9148-4a45-a5c6-3c4aa15be353" name="Changes" comment="question 4 complete">
+    <list default="true" id="a960b076-9148-4a45-a5c6-3c4aa15be353" name="Changes" comment="question 5 complete with correct validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <updated>1681990989793</updated>
       <workItem from="1681990991040" duration="1853000" />
       <workItem from="1682000054750" duration="3070000" />
-      <workItem from="1682018271910" duration="3930000" />
+      <workItem from="1682018271910" duration="5477000" />
     </task>
     <task id="LOCAL-00001" summary="question 2 complete">
       <created>1682019458205</created>
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682021525136</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="question 5 complete with correct validation">
+      <created>1682022562746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682022562746</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,7 @@
     <MESSAGE value="question 2 complete" />
     <MESSAGE value="question 3 complete" />
     <MESSAGE value="question 4 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 4 complete" />
+    <MESSAGE value="question 5 complete with correct validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 5 complete with correct validation" />
   </component>
 </project>
