@@ -21,22 +21,24 @@ public class Product {
     }
 
     public void setName(String name) { // i got this name trim function off stackoverflow
-        if (name == null || name.trim().isEmpty()) {
-            throw new IllegalArgumentException("Name can not be null or empty");
+        if (name == null || name.trim().isEmpty() || name.trim().length() < 3) {
+            throw new IllegalArgumentException("Name should be more than 3 characters");
         }
         this.name = name;
     }
+
 
     public double getPrice() {
         return price;
     }
 
     public void setPrice(double price) {
-        if (price <= 0) {
-            throw new IllegalArgumentException("Price must be greater than zero");
+        if (price < 0 || price > 5000) {
+            throw new IllegalArgumentException("price must be in the range of 0-5000");
         }
         this.price = price;
     }
+
 
     public String getCategory() {
         return category;
@@ -44,9 +46,9 @@ public class Product {
 
     public void setCategory(String category) {
         if (category == null || category.trim().isEmpty()) { // this trim function is also from stackoverflow but i made it for a catagory  instead of name
-            throw new IllegalArgumentException("Category cannot be null or empty");
+            throw new IllegalArgumentException("Category cannot be empty");
         }
-        this.category = category;
+        this.category = category;  // comeback to this question
     }
 
     public List<Review> getReviews() {
