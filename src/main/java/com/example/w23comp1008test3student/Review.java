@@ -17,7 +17,10 @@ public class Review {
     }
 
     public void setReviewerName(String reviewerName) {
-
+        if (reviewerName.trim().length() < 2) {
+            throw new IllegalArgumentException("Reviewer name must be 2 or more characters");
+        }
+        this.reviewerName = reviewerName;
     }
 
     public String getDescription() {
@@ -25,7 +28,13 @@ public class Review {
     }
 
     public void setDescription(String description) {
-
+        if (description.trim().isEmpty()) {
+            this.description = "no comment";
+        } else if (description.length() > 200) {
+            throw new IllegalArgumentException("Description must be 200 characters or less");
+        } else {
+            this.description = description;
+        }
     }
 
     public int getStarRating() {
@@ -33,6 +42,11 @@ public class Review {
     }
 
     public void setStarRating(int starRating) {
-
+        if (starRating < 0 || starRating > 5) {
+            throw new IllegalArgumentException("Star rating must be an integer in the range of 0-5");
+        }
+        this.starRating = starRating;
     }
+
 }
+

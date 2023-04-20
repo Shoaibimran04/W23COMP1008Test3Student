@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a960b076-9148-4a45-a5c6-3c4aa15be353" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a960b076-9148-4a45-a5c6-3c4aa15be353" name="Changes" comment="question 2 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Review.java" afterDir="false" />
     </list>
@@ -94,11 +93,23 @@
       <updated>1681990989793</updated>
       <workItem from="1681990991040" duration="1853000" />
       <workItem from="1682000054750" duration="3070000" />
-      <workItem from="1682018271910" duration="991000" />
+      <workItem from="1682018271910" duration="1875000" />
     </task>
+    <task id="LOCAL-00001" summary="question 2 complete">
+      <created>1682019458205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682019458206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="question 2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 2 complete" />
   </component>
 </project>
