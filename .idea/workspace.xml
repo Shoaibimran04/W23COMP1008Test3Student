@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a960b076-9148-4a45-a5c6-3c4aa15be353" name="Changes" comment="question 2 complete">
+    <list default="true" id="a960b076-9148-4a45-a5c6-3c4aa15be353" name="Changes" comment="question 3 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/w23comp1008test3student/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <updated>1681990989793</updated>
       <workItem from="1681990991040" duration="1853000" />
       <workItem from="1682000054750" duration="3070000" />
-      <workItem from="1682018271910" duration="1875000" />
+      <workItem from="1682018271910" duration="2537000" />
     </task>
     <task id="LOCAL-00001" summary="question 2 complete">
       <created>1682019458205</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682019458206</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="question 3 complete">
+      <created>1682020379338</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682020379339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="question 2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 2 complete" />
+    <MESSAGE value="question 3 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 3 complete" />
   </component>
 </project>
